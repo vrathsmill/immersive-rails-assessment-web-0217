@@ -1,0 +1,5 @@
+<h2>Guests on this episode:</h2>
+
+<% @episode.each do |ep_guest| %> 
+  <%= ep_guest.guest.name %>
+  <% end %>
